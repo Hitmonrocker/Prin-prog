@@ -1,0 +1,66 @@
+Games in Normal Form
+- Set of players N = (1,...,n)
+
+Player 1<=i <= n has a set of actions Ai
+	Ai may potentialy be infinite
+	the set of all choices are A= a1 X a2 X ... x aN
+For a set of choices from all players, there is a payoff vector
+this gives us a payoff matrix
+
+
+				player 1
+			Rock Scissors Paper
+Rock		0,0		-1,1	1,-1
+Scissors	1,-1	0,0		-1,1
+Paper		-1,1	1,-1	0,0
+player 2
+------------------------------------------------------------------
+Dominant Strategy
+	-A strategy that always yields better outcome for a player
+		regardless of the choice made by the other players
+
+------------------------------------------------------------------
+A stricitly dominant strategy is a dominant strategy is ...
+	
+
+A stricitly dominant strategy in a symmetric payoff matric is always an equilibrium point
+------------------------------------------------------------------
+Nash Equilibrium
+	- A strategy with which no player has anything to gain by chaning his/her own action alone
+------------------------------------------------------------------
+Stag Hunt Example
+				Hunter 1
+			Stag 	Hare
+	Stag 	2,2		1,0
+	Hare	0,1		1,1
+	^
+Hunter 2
+
+No Dominant Strategy
+
+Nash Equilibrium
+	-[2,2] to [1,0] not beneficial for H1
+	-[1,1] to [0,1] not beneficial for H1
+
+two Nash equilibriums [2,2] and [1,1]
+------------------------------------------------------------------
+Chicken 
+				(1)
+			Turn  	Straight
+Turn 		-2,-2	5,-5
+Straight	-5,5	-100,100
+(2)
+------------------------------------------------------------------
+Mixed Strategy
+	-Assignment of probabilities that drive your strategy
+
+i.e. in rock paper scissors, we may have an expected payout of 0 
+	No strategy can beat this mixed strategy
+
+This yields a mied strategy
+------------------------------------------------------------------
+Nash Equilibrium
+
+Finite game: a game with a finite set of actions there is always at least one nash equilibrium. Which is either pure or mixed
+
+If there is a dominant strategy for a player, then there exists a nash equilibiurm...
